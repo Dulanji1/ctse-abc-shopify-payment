@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: payment-ctseapp-k8
-          image: nithyayamasinghe/abc-shopify-payment:latest
+          image: dulanjidocker/abc-shopify-payment:latest
           ports:
             - containerPort: 5000
           env:
